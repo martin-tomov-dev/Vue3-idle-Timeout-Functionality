@@ -1,0 +1,17 @@
+//
+// Indicator
+//
+
+.indicator-progress {
+    display: none;
+
+    [data-ms-indicator="on"] > & {
+        display: inline-block;
+    }
+}
+
+.indicator-label {
+    [data-ms-indicator="on"] > & {
+        display: none;
+    }
+}
